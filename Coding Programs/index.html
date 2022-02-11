@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Homemade+Apple&family=Montserrat:wght@400;500;600&family=Raleway:wght@400;600&display=swap" 
+        rel="stylesheet"> 
+        <link rel="stylesheet" href="trial.css">
+        <script src="app.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Sylvia F. Portfolio</title>
+
+    <body>
+            <header>
+                <!--font awesome link-->
+                <script src="https://kit.fontawesome.com/ee2252e97b.js" crossorigin="anonymous"></script>
+               
+                <!--header section-->
+                <div class="container">
+                    <h1 class ="logo">SF</h1>
+                    <nav class="site-nav">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-chess-queen site-nav--icon"></i>Home</a></li>
+                            <li><a href="#aabout"><i class="fas fa-chess-rook site-nav--icon"></i>About</a></li>
+                            <li><a href="#skills"><i class="fas fa-chess-bishop site-nav--icon"></i>Skills</a></li>
+                            <li><a href="#about"><i class="fas fa-chess-knight site-nav--icon"></i>Projects</a></li>
+                            <li><a href="#overlay"><i class="fas fa-chess-king site-nav--icon"></i>Contact</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    <div class="menu-toggle">
+                        <div class="hamburger"></div>
+                    </div>
+
+                </div>
+            </header>
+
+            <div class="about-wrapper" id = "aabout">
+                <div class="about-left">
+                    <div class="about-left-content">
+                    <div>
+                        <div class="shadow">
+                            <div class="about-img">
+                                <img src="images/sylviaf.jpg" alt="about me image">
+                            </div>
+                        </div>
+                        
+                        <h2>Sylvia<br> Favello</h2>
+                        <h3>Front-end Software Developer</h3>
+                        </div>  
+                        
+                        <ul class="icons">
+                            <li>
+                                <a href="https://github.com/sfavello" target=_blank>
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/EngineeringLynn" target=_blank>
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sylvialynn-7566a4219/" target=_blank>
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hashnode.com/@EngineeringLynn" target=_blank>
+                                    <i class="fas fa-blog"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    
+
+                    </div>
+                </div>
+
+                <div class="about-right">
+                    <h1>HI<span>!</span></h1>
+                    <h2>Here's who I am & what I do.</h2>
+                    <div class="about-btns">
+                       <a href ='./SylviaCV-3.docx'><button type ="button" class="btn btn-green">Resume
+                        
+                        </button> </a>
+                        <a href=#about><button type="button" class="btn btn-whitesmoke">Projects</button></a>
+                    </div>
+                <div class="about-para">
+                    <p>
+                        I am a self-taught Software developer passionate on programming functional, aesthetically
+                        pleasing user-friendly content, based out in Southern California. 
+                    </p>
+                </div>
+                </div>
+            </div>
+
+
+
+    
+            <!--Skills Section-->
+            <section class="section__title" id="skills">
+                <div class="skill">
+                    <div class="set">
+                    <span class="fas fa-globe"></span> 
+                    <h2>Web Development</h2> 
+                    <div class="list">
+                        <label>HTML</label>
+                        <i class="fab fa-html5"></i>
+                    </div>
+
+                    <div class="list">
+                        <label>CSS</label>
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+
+                    <div class="list">
+                        <label>JavaScript</label>
+                        <i class="fab fa-js"></i>
+                    </div>
+
+                    </div>
+
+
+                    <div class="set">
+                        <span class="fas fa-tools"></span> 
+                        <h2>Framework</h2> 
+                        <div class="list">
+                            <label>React</label>
+                            <i class="fab fa-react"></i>
+                        </div>
+    
+                        <div class="list">
+                        <label>Bootstrap</label>
+                        <i class="fab fa-bootstrap"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!--projects section-->
+            <section class ="about" id="about">
+                <h1 class="heading"><span>My</span><span> Projects</span></h1>
+
+                <div class="row">
+                    <div class="image">
+                       <a href="other.html"><img src='./images/Screen Shot 2022-01-23 at 3.20.00 PM.png' alt="image of weather app"></a>
+                    </div>
+                    <div class="content">
+                        <h3>About the project</h3>
+                        <p class= project__para> This is a Weather app created using JavaScript, HTML, and CSS. The API database came from OpenWeatherMap.org. 
+                        </p>
+                            
+                            <a href="https://github.com/sfavello/weatherapp" target=_blank class="button">Source Code</a>
+                    </div>
+
+                    <!--you can add more projects here, copy/ paste here-->
+                </div>
+            </section>
+
+            <div id ="overlay">
+                <form action="https://formsubmit.co/engineeringlynn@gmail.com" method="POST" />
+                <form onsubmit= "event.preventDefault(); validateForm()" /> 
+
+                    <h1 class="contact__me">Contact Me</h1>
+
+                    <label for="name" class="label">Name :</label>
+                    <input type="text" id="name" name="name" placeholder= "Your Name">
+                    <small class="error"> </small>
+
+                    <label for="email" class="label">Email :</label>
+                    <input type="text" id="email" name="email" placeholder= "Your Email">
+                    <small class="error"> </small>
+
+                    <label for="message" class="label">Message :</label>
+                    <textarea id="message" name="message" placeholder= "Your Message" rows="6" ></textarea>
+                    <small class="error"> </small>
+
+                    <div class="center">
+                        <input type="submit" name="submit" value="Send Message">
+                        <p id="success"></p>
+                    </div>
+                </form>
+            </div>
+            <footer>
+                <div class="footer">
+                    Created by Sylvia Favello &#169;
+                </div>
+            </footer>
+        
+
+
+
+    </body>
+
+</html>
