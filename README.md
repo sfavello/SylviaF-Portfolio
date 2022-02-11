@@ -6,8 +6,8 @@ I am a self-taught developer with an infinity for the front-end. I am based out 
 
 Skills: PYTHON / REACT / JS / HTML / CSS
 
-- 🔭 I’m currently working on Making Jarvis from Iron Man. 
-- 🌱 I’m currently learning Python & React. 
+- 🔭 I’m currently working on making an inspired social media app. 
+- 🌱 I’m currently learning React, MongoDB, and GraphQL. 
 - 📫 How to reach me: @engineeringlynn 
 - 😄 Pronouns: She/Her 
 
@@ -20,5 +20,5 @@ Skills: PYTHON / REACT / JS / HTML / CSS
 
 
 
-<img width="1440" alt="Screen Shot 2022-01-24 at 10 33 11 AM" src="https://user-images.githubusercontent.com/90116354/150863039-0cdcd702-0766-4daa-939e-d4ecb0da11ff.png">
-<img width="1440" alt="Screen Shot 2022-01-24 at 10 33 21 AM" src="https://user-images.githubusercontent.com/90116354/150863054-6421531e-6d3d-4234-a02a-0f9832526528.png">
+<img width="1419" alt="Screen Shot 2022-02-11 at 3 41 11 PM" src="https://user-images.githubusercontent.com/90116354/153685140-82a7ab5d-448b-474f-b9c1-46d2b499a20a.png">
+<img width="1419" alt="Screen Shot 2022-02-11 at 3 41 28 PM" src="https://user-images.githubusercontent.com/90116354/153685146-e6e18d31-34d4-43d8-a813-b030dc75fcac.png">
